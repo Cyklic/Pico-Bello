@@ -1,0 +1,55 @@
+.project {
+  width: 100%;
+  padding-left: 4rem;
+  /* padding-right: auto; */
+  background-color: var(--projectBG);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.proTitle h2 {
+  color: black;
+  font-size: 3rem;
+  /* margin-left: auto; */
+  padding-left: 0.8rem;
+  margin-right: auto;
+  text-align: left;
+  font-weight: 550;
+  padding-top: 1rem;
+}
+
+.proBox {
+  overflow-x: auto;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  padding-top: 4rem;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px; */
+}
+
+.imgCard {
+  height: 340px;
+  width: 330px;
+  padding: 4rem 35px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+  background-color: white;
+  color: black;
+}
+
+.shift {
+  padding-top: 11rem;
+  font-size: 18px;
+}
+
+.proBtn {
+  color: black;
+}
+
+.proBtn:hover {
+  color: var(--buttonColor);
+}

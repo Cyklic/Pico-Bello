@@ -1,0 +1,47 @@
+.aboutTwo {
+  width: 100%;
+  padding-left: auto;
+  padding-right: auto;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.aboutTwo img {
+  height: 500px;
+  width: 530px;
+}
+.abtTxtTwo {
+  width: 550px;
+}
+.abtSec {
+  width: 1130px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.abtTxtTwo h2 {
+  color: black;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 550;
+}
+
+.abtTxtTwo p {
+  line-height: 1.7rem;
+  max-width: 450px;
+  font-size: 19px;
+}
+
+.butn {
+  margin-top: 2rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.9rem 1.9rem;
+  color: white;
+  background-color: var(--buttonColor);
+}
+
+.butn:hover {
+  transform: scale(1.1);
+}

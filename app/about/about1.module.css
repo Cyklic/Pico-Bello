@@ -1,0 +1,83 @@
+.abt {
+  width: 100%;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.title h2 {
+  color: black;
+  font-size: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 550;
+  margin-top: 6rem;
+}
+
+.aboutText {
+  line-height: 1.7rem;
+  max-width: 450px;
+  font-size: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.box {
+  padding-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card {
+  height: 333px;
+  width: 348px;
+  padding: 4rem 35px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 2px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow: hidden;
+  text-align: left;
+
+  &:hover {
+    background-color: var(--rectangle);
+
+    & > * {
+      color: #fff;
+    }
+  }
+}
+
+/* .card:hover {
+   
+  } */
+
+.card h5 {
+  color: var(--rectangleText);
+  font-size: 23px;
+  margin-bottom: 15px;
+  max-width: 250px;
+}
+.pra p {
+  color: black;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.card .button {
+  color: black;
+  margin-right: 13rem;
+  margin-top: auto;
+  width: 270px;
+}
+.card:hover .button {
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+}

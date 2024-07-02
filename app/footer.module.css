@@ -1,0 +1,60 @@
+.footer {
+  margin-top: 6rem;
+  background-color: var(--footer);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 300px;
+}
+
+.socLinks ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 3rem;
+}
+
+.soli {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.webLink {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.weli1 {
+  color: white;
+  text-decoration: none;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+}
+
+.weli2 {
+  color: white;
+  text-decoration: none;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
+.numAdr {
+  color: white;
+  max-width: 330px;
+  padding-right: 100px;
+}
+
+.numSpace {
+  padding-top: 1rem;
+}

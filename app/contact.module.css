@@ -1,0 +1,100 @@
+.contact {
+  width: 100%;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 6rem;
+}
+
+.contTitle h2 {
+  color: black;
+  font-size: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 550;
+  margin-top: 6rem;
+}
+
+.contText {
+  line-height: 1.7rem;
+  max-width: 450px;
+  font-size: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.formm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formm form {
+  width: 90%;
+  max-width: 600px;
+}
+
+.inGroup {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.inGroup input {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid black;
+  color: black;
+}
+
+.inGroup textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid black;
+  color: black;
+}
+
+.inGroup label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 41px;
+  padding-bottom: 41px;
+  padding-left: 20px;
+  color: #b0b0b0;
+  cursor: text;
+  font-size: 12px;
+}
+
+.inGroup p {
+  padding-bottom: 0.7rem;
+}
+
+.sumBtn {
+  outline: none;
+  border: none;
+  background-color: var(--buttonColor);
+  color: white;
+  padding: 0.9rem 1.9rem;
+  display: block;
+  margin: auto;
+}
+
+.sumBtn:hover {
+  transform: scale(1.1);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row .inGroup {
+  flex-basis: 48%;
+}

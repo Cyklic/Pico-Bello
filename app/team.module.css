@@ -1,0 +1,72 @@
+.team {
+  width: 100%;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.teamTitle h2 {
+  color: black;
+  font-size: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 550;
+  margin-top: 6rem;
+}
+
+.teamText {
+  line-height: 1.7rem;
+  max-width: 450px;
+  font-size: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.teamBox {
+  padding-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  gap: 20px;
+}
+
+.teamCard {
+  height: 460px;
+  width: 348px;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+}
+
+.team_img {
+  flex-grow: 1;
+}
+
+.teamBtn {
+  text-decoration: none;
+  /* display: inline-block; */
+  /* padding: 0.9rem 35px; */
+  color: white;
+  background-color: var(--buttonColor);
+  display: flex;
+  align-items: flex-start;
+  /* flex-direction: column-reverse; */
+  padding: 20px;
+}
+
+.teamBtn .nameEdit {
+  font-size: 18px;
+  width: 170px;
+}
+
+.teamBtn .roleEdit {
+  padding-top: 0.5rem;
+  font-size: 12px;
+}
+
+.likeBtn {
+  padding-left: 6rem;
+}
